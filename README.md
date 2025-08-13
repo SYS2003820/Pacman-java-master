@@ -1,58 +1,81 @@
-Pac-Man (Java, Swing)
-A basic Pac-Man clone built in Java Swing.
-This is the original unmodified version — no added start screens, scores, or extra features.
+<h1 align="center">🟡 Pac-Man (Java, Swing)</h1>
 
-🎯 Features
-Pac-Man movement with arrow keys.
+<p align="center">
+A basic Pac-Man clone built in <b>Java Swing</b>.  
+This is the original unmodified version — no start screens, no extra features — just pure retro fun!
+</p>
 
-Ghosts moving around the map.
+---
 
-Simple maze layout.
+## 📸 Screenshot
 
-Collect food pellets to increase score.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SYS2003820/Pacman-java-master/5f8d8454e8cb5fb40474962289f398cdf0de79be/pacman-java-master/Pac1.png" alt="Pac-Man Screenshot" width="500">
+</p>
 
-Win condition when all pellets are eaten.
+---
 
-Game over if caught by a ghost.
+## 🎯 Features
 
-🧰 Tech Stack
-Language: Java (JDK 8+)
+- 🕹️ Pac-Man movement with arrow keys  
+- 👻 Ghosts moving around the map  
+- 🌀 Simple maze layout  
+- 🍒 Collect food pellets to increase score  
+- 🏆 Win condition when all pellets are eaten  
+- 💀 Game over if caught by a ghost  
 
-UI: Java Swing / AWT
+---
 
-IDE: Any (VS Code, IntelliJ IDEA, Eclipse)
+## 🧰 Tech Stack
 
-📂 Project Structure (Original)
-javascript
-Copy code
-pacman-java/
-├─ PacMan.java       // Main game panel and loop
-├─ Ghost.java        // Ghost movement logic
-├─ Map.java          // Maze data
-├─ images/           // PNG sprites
-└─ ...
-🚀 Running the Game
-1) Prerequisites
-Install Java JDK 8+.
+- **Language:** Java (JDK 8+)  
+- **UI:** Java Swing / AWT  
+- **IDE:** Any (VS Code, IntelliJ IDEA, Eclipse)  
 
-Optional: Install VS Code with the Java Extension Pack.
+---
 
-2) Run in VS Code
-Open the folder in VS Code.
+---
 
-Open PacMan.java.
+## 🚀 Running the Game
 
-Click the green Run ▶ button above public static void main.
+### **Prerequisites**
+- Install **Java JDK 8+**  
+- (Optional) Install **VS Code** with the Java Extension Pack  
 
-3) Run from Command Line
-bash
-Copy code
+---
+
+### **Run in VS Code**
+1. Open the folder in **VS Code**  
+2. Open `PacMan.java`  
+3. Click the green **Run ▶** button above `public static void main`  
+
+---
+
+### **Run from Command Line**
+```bash
 # Compile
 javac *.java
 
 # Run
 java PacMan
 🎮 Controls
-Arrow Keys → Move Pac-Man
+⬆⬇⬅➡ Arrow Keys → Move Pac-Man
 
-ESC → Exit game
+⎋ ESC → Exit game
+
+📜 License
+This project is licensed under the MIT License.
+Feel free to modify and improve it.
+
+🙌 Credits
+Developer – Vishesh Vishwakarma
+
+Original Game Concept – Namco (1980)
+
+Sprites – Extracted from classic Pac-Man graphics
+
+<p align="center"><b>Chomp the dots. Dodge the ghosts. Relive the arcade magic. 🟡</b></p> ```
+
+
+
+
